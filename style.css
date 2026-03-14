@@ -59,6 +59,12 @@ nav a {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    /* Fix image width on mobile without changing desktop layout */
+    #my-story img {
+        max-width: 100% !important;
+        height: auto;
+    }
 }
 
 nav a:hover {
